@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body{
+  background-color: #2B2922;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar{
+  margin: 40px 100px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar>div:nth-child(1){
+  flex: 1;
+}
+
+.list{
+  display: flex;
+  list-style-type: none;
+  color: #FFFFFF;
+}
+
+.list-item{
+  margin-right: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.list>.list-item:nth-child(1){
+  opacity: 1;
+  font-weight: 600;
+}
+
+.button-small{
+  background-color: transparent;
+  color: #9A8A35;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 2px solid #9A8A35;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+/* Justice Text style */
+
+.hero-heading{
+  display: inline-block;
+  color:#FFFFFF;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 70px;
+  max-width: 40vw;
+}
+
+.hero-body{
+  text-align: start;
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 30px;
+  max-width: 40vw;
+  margin-right: 100px;
+  margin-top: 50px;
+  float: right;
+}
+
+/* justice image style */
+
+.banner {
+  height: 540px;
+}
+.banner-container  {
+  position: absolute;
+  min-width: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+  height: 500px;
+  overflow: hidden;
+}
+.banner-container img {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Prev and Next Button */
+
+.button-large-prev{
+  color: #9A8A35;
+  background-color: #39372d;
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  float: right;
+}
+
+.button-large-next{
+  color: #FFFFFF;
+  background-color: #9A8A35;
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  float: right;
+}
+
+.button-large-prev span {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #a08f36;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-large-next span {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
